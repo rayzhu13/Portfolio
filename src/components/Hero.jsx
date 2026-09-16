@@ -29,10 +29,7 @@ export default function Hero() {
       onMouseLeave={handleMouseLeave}
     >
       <ParticleWaves tiltX={tilt.x} tiltY={tilt.y} />
-      <div
-        className="hero__content"
-        style={{ transform: `translate3d(${tilt.x * 10}px, ${tilt.y * 8}px, 0)` }}
-      >
+      <div className="hero__content">
         <h1 className="hero__name tracked">{content.name}</h1>
         <div className="hero__divider" />
         <p className="hero__title tracked">{content.title}</p>

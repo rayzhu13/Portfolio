@@ -8,6 +8,7 @@
   font-size: 13px;
   font-weight: 500;
   color: var(--text);
+  text-shadow: var(--glow-text);
   margin: 0 0 48px;
   text-align: center;
 }
@@ -43,6 +44,7 @@
   border: 1px solid var(--border);
   border-radius: 999px;
   padding: 8px 18px;
+  box-shadow: var(--glow-box);
 }
 
 /* Projects */
@@ -57,12 +59,14 @@
   border: 1px solid var(--border);
   border-radius: 10px;
   padding: 28px;
-  transition: border-color 0.25s ease, transform 0.25s ease;
+  box-shadow: var(--glow-box);
+  transition: border-color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .project-card:hover {
   border-color: var(--border-strong);
   transform: translateY(-4px);
+  box-shadow: var(--glow-box-hover);
 }
 
 .project-card h3 {
@@ -70,6 +74,7 @@
   font-size: 17px;
   font-weight: 500;
   color: var(--text);
+  text-shadow: var(--glow-text);
 }
 
 .project-card p {
@@ -95,6 +100,7 @@
   border: 1px solid var(--border);
   border-radius: 999px;
   padding: 4px 12px;
+  box-shadow: var(--glow-box);
 }
 
 /* Experience */
@@ -128,6 +134,7 @@
   font-size: 16px;
   font-weight: 500;
   color: var(--text);
+  text-shadow: var(--glow-text);
 }
 
 .experience__meta {
@@ -163,6 +170,7 @@
   font-weight: 300;
   letter-spacing: 0.04em;
   color: #fff;
+  text-shadow: var(--glow-text);
   border-bottom: 1px solid var(--border-strong);
   padding-bottom: 6px;
   margin-bottom: 40px;
@@ -180,6 +188,7 @@
   gap: 16px;
   font-size: 18px;
   color: #fff;
+  filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.3));
 }
 
 .contact__socials a {

@@ -5,15 +5,14 @@ export const content = {
   social: {
     github: 'https://github.com/your-username',
     linkedin: 'https://linkedin.com/in/your-username',
-    email: 'your.email@example.com',
+    email: 'ray.zhu130@gmail.com',
     resumeUrl: '/resume.pdf',
   },
 
   about: {
     heading: 'About',
     paragraphs: [
-      "Replace this with your own bio — a couple of sentences on who you are, what kind of engineering you enjoy, and what you're working on right now.",
-      'Add a second paragraph if you want to mention your background, interests outside of work, or what you\'re looking for next.',
+      "I'm Ray, a Mathematics student at the University of Waterloo with an interest in software engineering, data, and building things that people actually find useful. Outside of work, I'm passionate about volleyball and try to play as often as I can.",
     ],
     skills: [
       'JavaScript',
@@ -48,21 +47,14 @@ export const content = {
 
   experience: [
     {
-      role: 'Software Engineer',
-      company: 'Company Name',
-      dates: '2024 — Present',
+      role: 'AI Deployment Engineer',
+      company: 'Magical',
+      dates: 'May 2026 — Present',
       bullets: [
-        'Add a bullet point describing an accomplishment or responsibility.',
-        'Add another bullet point here.',
-      ],
-    },
-    {
-      role: 'Software Engineer Intern',
-      company: 'Company Name',
-      dates: 'Summer 2023',
-      bullets: [
-        'Add a bullet point describing an accomplishment or responsibility.',
-        'Add another bullet point here.',
+        'Built and deployed AI-powered automation workflows for real-world customer use cases at Magical, an AI company based in San Francisco.',
+        'Worked with AI agents, browser automation, APIs, webhooks, queues, and event-driven workflows to turn customer processes into reliable automated systems.',
+        'Handled data extraction, document and PDF processing, structured output mapping, and submission of data into external systems.',
+        'Debugged and improved existing automations, tested agent behavior, investigated regressions, and made workflows more reliable in production.',
       ],
     },
   ],

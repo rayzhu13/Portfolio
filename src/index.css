@@ -5,6 +5,9 @@
   --text-faint: #6b6b6b;
   --border: rgba(255, 255, 255, 0.12);
   --border-strong: rgba(255, 255, 255, 0.3);
+  --glow-text: 0 0 8px rgba(255, 255, 255, 0.3), 0 0 20px rgba(255, 255, 255, 0.12);
+  --glow-box: 0 0 20px rgba(255, 255, 255, 0.06);
+  --glow-box-hover: 0 0 28px rgba(255, 255, 255, 0.12);
 
   color-scheme: dark;
   font-family: 'Inter', system-ui, 'Segoe UI', Roboto, sans-serif;

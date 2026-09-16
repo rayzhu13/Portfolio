@@ -34,6 +34,7 @@
 
 .navbar__link--active {
   color: var(--text);
+  text-shadow: var(--glow-text);
   border-bottom-color: var(--text);
 }
 
