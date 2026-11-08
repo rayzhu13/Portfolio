@@ -26,10 +26,10 @@ export const content = {
 
   projects: [
     {
-      title: 'Project One',
-      description: 'A short description of this project — what it does and the problem it solves.',
-      tags: ['React', 'Node.js'],
-      link: '#',
+      title: 'Gather',
+      description: 'A web app that helps people decide where to eat, solo or in groups. It merges everyone’s preferences into one Google Places search, then uses Claude to rank the results with distance scoring and explain its top picks. Designed, built, and deployed solo.',
+      tags: ['JavaScript', 'Claude API', 'Google Places API', 'Vercel Serverless'],
+      link: 'https://gather-app.ca',
     },
     {
       title: 'Project Two',
