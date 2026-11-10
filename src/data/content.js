@@ -3,8 +3,8 @@ export const content = {
   title: 'Software Engineer',
 
   social: {
-    github: 'https://github.com/your-username',
-    linkedin: 'https://linkedin.com/in/your-username',
+    github: 'https://github.com/rayzhu13',
+    linkedin: 'https://www.linkedin.com/in/ray-zhu-485626246/',
     email: 'ray.zhu130@gmail.com',
     resumeUrl: '/resume.pdf',
   },
@@ -41,7 +41,7 @@ export const content = {
       title: 'ServeBot',
       description: 'A Discord bot for UW SERVE, the 600+ member volleyball club I run, that turns casual chat assignments into tracked tasks with scheduled reminders. Claude pulls out the assignee, task, and exact due date from plain-English messages, and async Python stores them in Postgres. Live in production; designed, built, and deployed solo.',
       tags: ['Python', 'discord.py', 'FastAPI', 'PostgreSQL', 'Claude API'],
-      link: '#',
+      link: 'https://github.com/rayzhu13/UW-Servebot',
     },
   ],
 
