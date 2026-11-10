@@ -32,10 +32,10 @@ export const content = {
       link: 'https://gather-app.ca',
     },
     {
-      title: 'Project Two',
-      description: 'A short description of this project — what it does and the problem it solves.',
-      tags: ['Python', 'Machine Learning'],
-      link: '#',
+      title: 'Hoopdle',
+      description: 'A weekly NBA guessing game for basketball fans, with five puzzle types across lineup and grid modes. Answers stay server-side behind Supabase Row Level Security and API-route validation, and Vercel Cron publishes pre-written puzzles on schedule. Designed, built, and deployed solo.',
+      tags: ['Next.js', 'TypeScript', 'Supabase', 'Postgres', 'Vercel Cron'],
+      link: 'https://hoopdle.ca',
     },
     {
       title: 'Project Three',
