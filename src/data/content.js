@@ -27,18 +27,24 @@ export const content = {
   projects: [
     {
       title: 'Gather',
+      kind: 'Web App',
+      icon: 'food',
       description: 'A web app that helps people decide where to eat, solo or in groups. It merges everyone’s preferences into one Google Places search, then uses Claude to rank the results with distance scoring and explain its top picks. Designed, built, and deployed solo.',
       tags: ['JavaScript', 'Claude API', 'Google Places API', 'Vercel Serverless'],
       link: 'https://gather-app.ca',
     },
     {
       title: 'Hoopdle',
+      kind: 'Web Game',
+      icon: 'basketball',
       description: 'A weekly NBA guessing game for basketball fans, with five puzzle types across lineup and grid modes. Answers stay server-side behind Supabase Row Level Security and API-route validation, and Vercel Cron publishes pre-written puzzles on schedule. Designed, built, and deployed solo.',
       tags: ['Next.js', 'TypeScript', 'Supabase', 'Postgres', 'Vercel Cron'],
       link: 'https://hoopdle.ca',
     },
     {
       title: 'ServeBot',
+      kind: 'Discord Bot',
+      icon: 'discord',
       description: 'A Discord bot for UW SERVE, the 600+ member volleyball club I run, that turns casual chat assignments into tracked tasks with scheduled reminders. Claude pulls out the assignee, task, and exact due date from plain-English messages, and async Python stores them in Postgres. Live in production; designed, built, and deployed solo.',
       tags: ['Python', 'discord.py', 'FastAPI', 'PostgreSQL', 'Claude API'],
       link: 'https://github.com/rayzhu13/UW-Servebot',
@@ -56,6 +62,7 @@ export const content = {
         'Handled data extraction, document and PDF processing, structured output mapping, and submission of data into external systems.',
         'Debugged and improved existing automations, tested agent behavior, investigated regressions, and made workflows more reliable in production.',
       ],
+      tags: ['AI Agents', 'Browser Automation', 'APIs', 'Webhooks', 'Event-Driven Workflows'],
     },
   ],
 }
