@@ -5,9 +5,7 @@ export const content = {
   social: {
     github: 'https://github.com/rayzhu13',
     linkedin: 'https://www.linkedin.com/in/ray-zhu-485626246/',
-    email: 'ray.zhu130@gmail.com',
-    resumeUrl: '/resume.pdf',
-  },
+    email: 'ray.zhu130@gmail.com',  },
 
   about: {
     heading: 'About',

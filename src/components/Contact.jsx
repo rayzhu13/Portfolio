@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaRegFileAlt } from 'react-icons/fa'
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { content } from '../data/content'
 
 export default function Contact() {
@@ -21,10 +21,6 @@ export default function Contact() {
           <span className="contact__sep" />
           <a href={social.linkedin} target="_blank" rel="noreferrer" aria-label="LinkedIn">
             <FaLinkedin />
-          </a>
-          <span className="contact__sep" />
-          <a href={social.resumeUrl} target="_blank" rel="noreferrer" aria-label="Resume">
-            <FaRegFileAlt />
           </a>
         </div>
       </div>

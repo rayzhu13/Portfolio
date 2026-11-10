@@ -1,5 +1,5 @@
 import { useRef, useState } from 'react'
-import { FaGithub, FaLinkedin, FaRegEnvelope, FaRegFileAlt } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaRegEnvelope } from 'react-icons/fa'
 import ParticleWaves from './ParticleWaves'
 import { content } from '../data/content'
 import './Hero.css'
@@ -44,10 +44,6 @@ export default function Hero() {
           <span className="hero__sep" />
           <a href={`mailto:${social.email}`} aria-label="Email">
             <FaRegEnvelope />
-          </a>
-          <span className="hero__sep" />
-          <a href={social.resumeUrl} target="_blank" rel="noreferrer" aria-label="Resume">
-            <FaRegFileAlt />
           </a>
         </div>
       </div>
