@@ -1,9 +1,30 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { navLinks } from '../data/content'
 import './Navbar.css'
 
 export default function Navbar() {
   const [activeId, setActiveId] = useState('home')
+  const [scrolled, setScrolled] = useState(false)
+  const progressRef = useRef(null)
+
+  useEffect(() => {
+    function onScroll() {
+      const max = document.documentElement.scrollHeight - window.innerHeight
+      const progress = max > 0 ? window.scrollY / max : 0
+      if (progressRef.current) {
+        progressRef.current.style.transform = `scaleX(${progress})`
+      }
+      setScrolled(window.scrollY > window.innerHeight * 0.6)
+    }
+
+    onScroll()
+    window.addEventListener('scroll', onScroll, { passive: true })
+    window.addEventListener('resize', onScroll)
+    return () => {
+      window.removeEventListener('scroll', onScroll)
+      window.removeEventListener('resize', onScroll)
+    }
+  }, [])
 
   useEffect(() => {
     const sections = navLinks
@@ -31,7 +52,8 @@ export default function Navbar() {
   }
 
   return (
-    <nav className="navbar">
+    <nav className={`navbar${scrolled ? ' navbar--scrolled' : ''}`}>
+      <span className="navbar__progress" ref={progressRef} aria-hidden="true" />
       <ul className="navbar__list">
         {navLinks.map((link) => (
           <li key={link.id}>

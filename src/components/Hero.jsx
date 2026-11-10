@@ -51,6 +51,10 @@ export default function Hero() {
           </a>
         </div>
       </div>
+      <a href="#about" className="hero__scroll" aria-label="Scroll to About">
+        <span className="tracked">Scroll</span>
+        <span className="hero__scroll-line" />
+      </a>
     </section>
   )
 }
