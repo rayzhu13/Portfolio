@@ -38,9 +38,9 @@ export const content = {
       link: 'https://hoopdle.ca',
     },
     {
-      title: 'Project Three',
-      description: 'A short description of this project — what it does and the problem it solves.',
-      tags: ['TypeScript', 'Next.js'],
+      title: 'ServeBot',
+      description: 'A Discord bot for UW SERVE, the 600+ member volleyball club I run, that turns casual chat assignments into tracked tasks with scheduled reminders. Claude pulls out the assignee, task, and exact due date from plain-English messages, and async Python stores them in Postgres. Live in production; designed, built, and deployed solo.',
+      tags: ['Python', 'discord.py', 'FastAPI', 'PostgreSQL', 'Claude API'],
       link: '#',
     },
   ],
